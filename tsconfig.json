@@ -1,0 +1,9 @@
+// ts -> js로 변환(컴파일)
+// 컴파일 시 필요한 옵션
+
+{
+  "compilerOptions": {
+    "target": "ES5", // js버전 지정 (esnext : 최신)
+    "module": "commonjs" // js import 문법 버전 지정
+  }
+}
